@@ -1,0 +1,18 @@
+name: Deploy Slidev
+on:
+  push:
+    branches: [main] # main 브랜치에 푸시될 때마다 자동 배포
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - run: npm install
+      - run: npm run build -- --base /sadongsae/ # 내 저장소 이름을 꼭 넣어주세요!
+      - uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          folder: dist
+          branch: gh-pages # 빌드된 결과물을 gh-pages 브랜치에 저장
