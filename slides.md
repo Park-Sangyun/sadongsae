@@ -1,5 +1,5 @@
 ---
-theme: seriph
+theme: default
 class: text-center
 highlighter: shiki
 lineNumbers: true
