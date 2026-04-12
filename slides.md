@@ -74,12 +74,12 @@ layout: two-cols
 <div class="ml-6 mt-16 flex flex-col justify-center h-full space-y-4">
   <div class="bg-white/5 p-3 rounded-lg border border-white/10">
     <div class="text-[12px] font-bold mb-1 text-orange-400 text-center">CPU: 직렬 처리 (Serial)</div>
-    <img src="/cpu.gif" class="w-full h-32 object-contain rounded shadow-md" />
+    <img src="./cpu.gif" class="w-full h-32 object-contain rounded shadow-md" />
   </div>
 
   <div class="bg-white/5 p-3 rounded-lg border border-white/10">
     <div class="text-[12px] font-bold mb-1 text-blue-400 text-center">GPU: 병렬 처리 (Parallel)</div>
-    <img src="/gpu.gif" class="w-full h-32 object-contain rounded shadow-md" />
+    <img src="./gpu.gif" class="w-full h-32 object-contain rounded shadow-md" />
   </div>
 
   <p class="text-[10px] opacity-50 text-center italic mt-2">
@@ -101,7 +101,7 @@ layout: two-cols
 ::right::
 
 <div class="ml-4 flex flex-col items-center justify-center h-full">
-  <img src="/tensor-core.png" class="w-full h-64 object-contain rounded-lg shadow-lg border border-white/10 bg-white/5 p-2" alt="NVIDIA Tensor Core and CUDA" />
+  <img src="./tensor-core.png" class="w-full h-64 object-contain rounded-lg shadow-lg border border-white/10 bg-white/5 p-2" alt="NVIDIA Tensor Core and CUDA" />
 </div>
 
 ---
@@ -122,7 +122,7 @@ layout: two-cols
 ::right::
 
 <div class="ml-4 flex flex-col items-center justify-center h-full">
-  <img src="/npu-mobile.png" class="w-full h-64 object-contain rounded-lg shadow-lg border border-white/10 bg-white/5 p-2" alt="Mobile NPU and FuriosaAI" />
+  <img src="./npu-mobile.png" class="w-full h-64 object-contain rounded-lg shadow-lg border border-white/10 bg-white/5 p-2" alt="Mobile NPU and FuriosaAI" />
   <p class="text-[10px] mt-3 opacity-50 text-center italic">"M4칩 Neural Engine"</p>
 </div>
 
@@ -147,12 +147,12 @@ layout: two-cols
 <div class="ml-6 mt-12 flex flex-col justify-center h-full space-y-4">
   <div class="bg-white/5 p-2 rounded-lg border border-white/10">
     <div class="text-[11px] font-bold mb-1 text-green-400 text-center">메모리에서 연산기로 데이터 로드</div>
-    <img src="/tpu-1.gif" class="w-full h-28 object-contain rounded shadow-md bg-white" />
+    <img src="./tpu-1.gif" class="w-full h-28 object-contain rounded shadow-md bg-white" />
   </div>
 
   <div class="bg-white/5 p-2 rounded-lg border border-white/10">
     <div class="text-[11px] font-bold mb-1 text-blue-400 text-center">Systolic Array 데이터 흐름 연산</div>
-    <img src="/tpu-2.gif" class="w-full h-28 object-contain rounded shadow-md bg-white" />
+    <img src="./tpu-2.gif" class="w-full h-28 object-contain rounded shadow-md bg-white" />
   </div>
 </div>
 
@@ -176,7 +176,7 @@ layout: two-cols
 <div class="ml-6 mt-16 flex flex-col justify-center h-full space-y-4">
   <div class="bg-white/5 p-3 rounded-lg border border-white/10 text-center">
     <div class="text-[12px] font-bold mb-2 text-orange-400">LPU 아키텍처 및 데이터 흐름</div>
-    <img src="/lpu.png" class="w-full h-52 object-contain rounded shadow-md bg-white/5" alt="Groq LPU Architecture" />
+    <img src="./lpu.png" class="w-full h-52 object-contain rounded shadow-md bg-white/5" alt="Groq LPU Architecture" />
   </div>
 </div>
 
