@@ -13,7 +13,7 @@ title: AI 가속기의 종류 - GPU, NPU, LPU
 ## 목적에 따른 아키텍처의 분화: GPU, NPU, LPU
 
 <div class="pt-12">
-  <span class="opacity-50 text-sm">박상윤 | 컴퓨터공학 전공 사제동행세미나</span>
+  <span class="opacity-50 text-sm">박상윤</span>
 </div>
 
 ---
@@ -24,7 +24,7 @@ layout: default
 ### 딥러닝 연산에 최적화된 특수 목적 하드웨어
 
 - 대규모 행렬 곱셈 등 인공지능에 필요한 방대한 연산을 고속으로 처리하는데 사용되는 하드웨어 시스템
-- 범용적인 CPU는 복잡한 제어 로직을 갖춰 단순 반복적인 병렬 연산 효율이 낮음 (폰 노이만 병목 현상)
+- 범용적인 CPU는 복잡한 제어 로직을 갖춰 단순 반복적인 병렬 연산 효율이 낮음
 - **AI 가속기의 핵심 목표**
   - **연산 처리량(Throughput)** 극대화
   - **전력 대비 성능(Efficiency)** 최적화
